@@ -3,7 +3,7 @@
 ## **TODO LIST**
 - [x] **Manual Controller**
 - [ ] **PID Controller**
-- - [ ] Read GyroScope Values and Convert them to angle Conversion
+- - [ ] Read GyroScope Values and Convert them into Roll, Pitch & Yaw angles
 - - [ ] Make a PID Control-Loop Model - Scipy
 - - [ ] Implement the PID Model to the PID Controller
 - - [ ] ...
