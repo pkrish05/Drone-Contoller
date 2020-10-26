@@ -1,14 +1,14 @@
 # **Drone-Contoller**
 
 ## **TODO LIST**
-- [x] **Manual Controller**
-- [ ] **PID Controller**
+- [x] **Manual Controller :hammer_and_wrench:**
+- [ ] **PID Controller :robot:**
 - - [ ] Read GyroScope Values and Convert them into Roll, Pitch & Yaw angles
 - - [ ] Make a PID Control-Loop Model - Scipy
 - - [ ] Implement the PID Model to the PID Controller
 - - [ ] ...
 
-## ***Manual Controller***
+## ***Manual Controller :hammer_and_wrench:***
 ### **How Does it Work ?**
 To manually control the speed of the motors we need and input method (Buttons, Switches, Potentiometer, etc). 
 Here the most suitable way of controlling the motor speed is the Potentiometer as we can reach analog values between 0-1023.
@@ -21,7 +21,7 @@ Now that we have a way to reach values in a range of 1024 values we can use them
 
 PS. Before Doing the Manual controller we need to make sure the ESCs are Calibrated before their usage.
 
-## ***PID Controller using Gyroscope for error measurement***
+## ***PID Controller :robot: using Gyroscope for error measurement***
 ### **How Does it Work ?**
 
 1. ...
